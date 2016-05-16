@@ -6,7 +6,7 @@ sh ./bin/build.sh
 if [ $# -eq 1 ]; then
   ci_message="$1"
 else
-  ci_message="no description"
+  ci_message="auto generated"
 fi
 echo "commit-message: $ci_message"
 echo "deploying..."
