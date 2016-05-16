@@ -5,6 +5,6 @@ echo $updated_at
 
 bundle exec html2haml --unix-newlines index.html.haml index.html
 
-git add .
+git add -A
 git commit -m "Updated at $updated_at"
-#git push -u origin master
+git push -u origin master
