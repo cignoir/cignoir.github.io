@@ -1,8 +1,9 @@
 #! /bin/sh
 
-ci_message="no description"
-if [ $# eq 1 ]; then
+if [ $# -eq 1 ]; then
   ci_message="$1"
+else
+  ci_message="no description"
 fi
 echo $ci_message
 
