@@ -6,20 +6,18 @@
     %link{rel: "stylesheet", href: "css/bootstrap.min.css"}
   %body
     .container
-      .row
+      .col-md-6
+        .row
         %center
           %h2 About Cignoir
       %hr
       .row
         %h3 ID/Name:
-        .col-md-6
-          %ul
-            %li
-              Cignoir
-            %li
-              Tomoaki Nagata
-        .col-md-6
-          no image
+        %ul
+          %li
+            Cignoir
+          %li
+            Tomoaki Nagata
       .row
         %h3 Activities:
         %ul
@@ -48,42 +46,48 @@
             2015 - Present
             %ul
               %li Exzeal Inc.
-      .row
-        %h3 Languages:
-        %ul
-          %li Japanese/English
-          %li Scala/Ruby/PHP/Java/C#
+      .col-md-6
+        .row
+          %h3 Languages:
+          %ul
+            %li Japanese/English
+            %li Scala/Ruby/PHP/Java/C#
 
-      .row
-        %h3 Skills(main):
-        %ul
-          %li
-            Web
-            %ul
-              %li Ruby on Rails/Wicket/CodeIgniter
-          %li
-            Database
-            %ul
-              %li MySQL/DynamoDB
-          %li
-            AWS
-            %ul
-              %li EC2/EMR/DynamoDB/SQS/EB/S3/RDS/SNS
-              %li Hive/Sqoop/Presto
-          %li
-            GameServer
-            %ul
-              %li PlayFramework/Padrino
-      .row
-        %h3 Skills(sub):
-        %ul
-          %li
-            3DCG
-            %ul
-              %li ZBrush
-              %li Metasequoia
-              %li ClipStudio[Paint|Coordinate|Action]
-          %li
-            GameClient
-            %ul
-              %li Unity
+        .row
+          %h3 Skills(main):
+          %ul
+            %li
+              Web
+              %ul
+                %li Ruby on Rails/Wicket/CodeIgniter
+            %li
+              Test
+              %ul
+                %li
+                  Jenkins/RSpec3/Specs2/JUnit
+            %li
+              Database
+              %ul
+                %li MySQL/DynamoDB
+            %li
+              AWS
+              %ul
+                %li EC2/EMR/DynamoDB/SQS/EB/S3/RDS/SNS
+                %li Hive/Sqoop/Presto
+            %li
+              GameServer
+              %ul
+                %li PlayFramework/Padrino
+        .row
+          %h3 Skills(sub):
+          %ul
+            %li
+              3DCG
+              %ul
+                %li ZBrush
+                %li Metasequoia
+                %li ClipStudio[Paint|Coordinate|Action]
+            %li
+              GameClient
+              %ul
+                %li Unity
