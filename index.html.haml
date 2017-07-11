@@ -5,94 +5,82 @@
     %title about cignoir
     %link{rel: "stylesheet", href: "css/spectre.min.css"}
   %body
-    .container
+    .container      
       .columns
-        %h2 About Cignoir
-        %hr
+        .column.col-6.col-sm-12
+          %dl
+            %dt ID/Name
+            %dd Tomoaki Nagata(a.k.a. Cignoir)   
+          %dl
+            %dt Location
+            %dd Japan
+        .column.col-6.col-sm-12
+          %dl
+            %dt Activities
+            %dd
+              %ul
+                %li
+                  %a{href: "https://github.com/cignoir"} github
+                %li
+                  %a{href: "https://twitter.com/cignoir"} twitter
+                %li
+                  %a{href: "http://cignoir.hatenablog.jp"} blog
+                %li
+                  discord: cignoir#1509
       .columns
-        .column.col-6
-          .columns
-            %h3 ID/Name:
-            %ul
-              %li
-                Cignoir
-              %li
-                Tomoaki Nagata
-          .columns
-            %h3 Activities:
-            %ul
-              %li
-                %a{href: "https://github.com/cignoir"} github
-              %li
-                %a{href: "https://twitter.com/cignoir"} twitter
-              %li
-                %a{href: "http://cignoir.hatenablog.jp"} blog
-              %li
-                discord: cignoir#1509
-          .columns
-            %h3 Location:
-            %ul
-              %li Japan
-          .columns
-            %h3 History:
-            %ul
-              %li
-                2009 - 2012
-                %ul
-                  %li DWANGO Co., Ltd.
-              %li
-                2013 - 2014
-                %ul
-                  %li Aiming Inc.
-              %li
-                2015 - Present
-                %ul
-                  %li Exzeal Inc.
-        .column.col-6
-          .columns
-            %h3 Languages:
-            %ul
-              %li Japanese/English
-              %li Scala/Ruby/PHP/Java/C#
-          .columns
-            %h3 Skills(main):
-            %ul
-              %li
-                Web
-                %ul
-                  %li Ruby on Rails/Wicket/CodeIgniter
-              %li
-                CI
-                %ul
-                  %li
-                    Jenkins/RSpec3/Specs2/JUnit
-              %li
-                Database
-                %ul
-                  %li MySQL/DynamoDB
-              %li
-                AWS
-                %ul
-                  %li EC2/Athena/DynamoDB/SQS/EB/S3/RDS/SNS
-                  %li EMR(Hive/Sqoop/Presto)
-              %li
-                GameServer
-                %ul
-                  %li PlayFramework/Padrino
-          .columns
-            %h3 Skills(sub):
-            %ul
-              %li
-                3DCG
-                %ul
-                  %li MODO
-                  %li ZBrush
-                  %li Marverous Designer
-              %li
-                2DCG
-                %ul
-                  %li ClipStudio Paint
-              %li
-                Game Engine
-                %ul
-                  %li Unity
+        .column.col-6.col-sm-12
+          %dl
+            %dt History
+            %dd
+              %ul
+                %li
+                  2009 - 2012
+                  %ul
+                    %li DWANGO Co., Ltd.
+                %li
+                  2013 - 2014
+                  %ul
+                    %li Aiming Inc.
+                %li
+                  2015 - Present
+                  %ul
+                    %li Exzeal Inc.
+        .column.col-6.col-sm-12
+          %dl
+            %dt Languages
+            %dd
+              %ul
+                %li Japanese/English
+                %li Scala/Ruby/PHP/Java/C#
+      .columns
+        .column.col-6.col-sm-12
+          %dl
+            %dt Skills (Developments)
+            %dd
+              %ul
+                %li
+                  Web Framework
+                  %ul
+                    %li PlayFramework/Ruby on Rails/Wicket/CodeIgniter
+                %li
+                  CI
+                  %ul
+                    %li
+                      Jenkins/RSpec3/Specs2/JUnit
+                %li
+                  Database
+                  %ul
+                    %li MySQL/DynamoDB
+                %li
+                  AWS
+                  %ul
+                    %li EC2/Athena/DynamoDB/SQS/EB/S3/RDS/SNS
+                    %li EMR(Hive/Presto/Sqoop)
+        .column.col-6.col-sm-12
+          %dl
+            %dt Skills (3DCG)
+            %dd
+              %ul
+                %li MODO
+                %li ZBrush
+                %li Marverous Designer
